@@ -1,0 +1,12 @@
+webservers:
+  hosts:
+    web1:
+      ansible_host: 46.101.82.134
+      ansible_user: root
+      ansible_ssh_pass: zen1Tugo
+    web2:
+      ansible_host: 50.19.167.101
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: /home/ubuntu/.ssh/aws_ssh_key_pair.pem
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
